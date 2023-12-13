@@ -1,7 +1,6 @@
 package test
 
 import (
-	"fmt"
 	"testing"
 )
 
@@ -14,7 +13,6 @@ func TestAdd(t *testing.T) {
 
 	t.Run("Test2", func(t *testing.T) {
 		result := add(99999, 333)
-		fmt.Println("11111111111")
 		t.Log("TEST result:", result)
 	})
 }
